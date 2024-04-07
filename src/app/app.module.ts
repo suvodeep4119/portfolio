@@ -8,9 +8,11 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AboutComponent, SkillsComponent, ProjectsComponent, BlogsComponent],
+  declarations: [AppComponent, HeaderComponent, AboutComponent, SkillsComponent, ProjectsComponent, BlogsComponent, ContactComponent, FooterComponent],
   imports: [BrowserModule, NgxTypedJsModule],
   providers: [],
   bootstrap: [AppComponent],
