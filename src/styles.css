@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Inter";
+}
+
+.btn-primary {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translate(-3px);
+}
+
+/* Card services */
+.card-service {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card-service:hover {
+  transform: translateY(-5px);
+}
+
+/* Projects image hover */
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.grayscale:hover {
+  filter: none;
+}
